@@ -1,0 +1,11 @@
+.calcBtns{
+    height: 90px;
+    width: 90px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius:30px;
+    background-color: #f4f1f1;
+    user-select: none;
+}

@@ -12,18 +12,12 @@ const buttons = ["C","Del","/","9","8","7","*","6","5","4","+","3","2","1","-","
 const findval = ()=>{
 
   let result = Function("return "+res)();
-
+  
   setRes(result.toString());
 }
 
 const handler = (arg) => {
-  //console.log(arg)
-
-  if(res === "Infinity"){
-    setRes("");
-    return;
-    
-  }
+  console.log(arg)
 
   if(arg ==="C") setRes("");
   else if(arg ==="=") findval();

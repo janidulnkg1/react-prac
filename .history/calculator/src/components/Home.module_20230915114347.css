@@ -42,12 +42,7 @@
     padding-left: 10px;
     padding-right: 10px;
     text-align: right;
-    
-  
-}
-
-.resbox::-webkit-scrollbar{
-    display: none;
+    margin-top: 10px;
 }
 
 .btns{

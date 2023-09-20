@@ -1,5 +1,4 @@
 import React from 'react'
-import { MOCK_PROJECTS } from './MockProjects';
 
 function ProjectsPage() {
   
@@ -9,7 +8,7 @@ function ProjectsPage() {
         <pre>{JSON.stringify(MOCK_PROJECTS, null, ' ')}</pre>
         </>
 
-    );
+    )
 
 }
 

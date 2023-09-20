@@ -17,13 +17,18 @@ function ProjectList({ projects }: ProjectListProps) {
                                     <strong>{project.name}</strong>
                                 </h5>
                                 <p>{project.description}</p>
-                                <p> Budget : {project.budget.toLocaleString()}</p>
+                                <p> : {project.budget.toLocaleString()}</p>
                             </section>
                     </div>
                 </div>    
-            ))}
+            
+            
+            
+            
+        ))}
         </div>
-    );
+
+        );
 
 }
 

@@ -7,8 +7,9 @@ function ProjectsPage() {
     return(
         <>
         <h1>Projects</h1>
-        <ProjectList projects={MOCK_PROJECTS}></ProjectList>
+        <ProjectLis projects={MOCK_PROJECTS}></ProjectLis>
         </>
+
     );
 
 }

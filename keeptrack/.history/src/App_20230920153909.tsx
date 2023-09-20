@@ -7,7 +7,7 @@ function App() {
   return (
 
     <div className='container'>
-      <ProjectsPage />
+      <ProjectsPage
     </div>
     
   );

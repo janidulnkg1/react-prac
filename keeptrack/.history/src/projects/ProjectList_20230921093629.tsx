@@ -12,8 +12,7 @@ function ProjectList({ projects }: ProjectListProps) {
                 <ProjectCard project={project}></ProjectCard>
                 </div>    
             ));
-        return <div className="row">{items}</div>;
+        return <div className='row'>{items}</div>;
 
     }
-
 export default ProjectList

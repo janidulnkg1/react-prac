@@ -7,13 +7,15 @@ interface ProjectListProps{
 }
 
 function ProjectList({ projects }: ProjectListProps) {
-    const items = projects.map(project => (
-        <div key={project.id} className="cols-sm">
+    return (
+        <div className="row"> 
+            {projects.map((project) => (
                 <ProjectCard project={project}></ProjectCard>
                 </div>    
-            ));
-        return <div className="row">{items}</div>;
+            ))}
+        </div>
+    );
 
-    }
+}
 
 export default ProjectList

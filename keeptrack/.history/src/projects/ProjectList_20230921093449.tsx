@@ -11,9 +11,10 @@ function ProjectList({ projects }: ProjectListProps) {
         <div key={project.id} className="cols-sm">
                 <ProjectCard project={project}></ProjectCard>
                 </div>    
-            ));
-        return <div className="row">{items}</div>;
+            ))}
+        </div>
+    );
 
-    }
+}
 
 export default ProjectList
